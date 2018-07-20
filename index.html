@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="en">
+<head>
+	    <title>Shopping List</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+	  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Shopping List</h1>
+  <p id="first">Get it done today</p>
+  <!-- you need to use CSS syntax: .second, #second for class and ID -->
+  
+   <input type="text" id="userinput" placeholder="Enter the items">
+   <!-- here we are using button with id attribute because here only one button so performance vice id is better -->
+   
+   <button id="enter" class="btn btn-danger">Enter</button>
+   <div class="div1">
+   <ul>
+   	<li class="bold red "random="23">Notebook</li>
+   	<!-- Using "classList", you can add or remove a class without affecting any others the element may have. But if you assign "className", it will wipe out any existing classes while adding the new one (or if you assign an empty string it will wipe out all of them).
+
+Assigning "className" can be a convenience for cases where you are certain no other classes will be used on the element, but I would normally use the "classList" methods exclusively.
+
+And "classList" also has handy "toggle" and "replace" methods. -->
+   	<li>Jello</li>
+   	<li>Birthday Cake</li>
+   	<li>Spinach</li>
+   	<li>Rice</li>
+   	<li>Candles</li>
+   </ul>
+</div>
+</div>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+ 
